@@ -1,0 +1,78 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/beryl/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=nl_NL.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting LC_NAME=nl_NL.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/beryl
+dbus-update-activation-environment: setting USER=beryl
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/beryl
+dbus-update-activation-environment: setting HOME=/home/beryl
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting LC_ADDRESS=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=nl_NL.UTF-8
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=nl_NL.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=beryl
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/beryl/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_IDENTIFICATION=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_TIME=nl_NL.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1266): xfce4-session-WARNING **: 22:32:11.756: xfsm_manager_load_session: Something wrong with /home/beryl/.cache/sessions/xfce4-session-beryl-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1304): GLib-CRITICAL **: 22:32:16.497: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1304): polkit-gnome-1-WARNING **: 22:32:16.512: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1295): xfsettingsd-WARNING **: 22:32:17.738: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(wrapper-2.0:1399): GLib-GIO-CRITICAL **: 22:32:28.991: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1399): GLib-GIO-CRITICAL **: 22:32:29.060: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1399): GLib-GObject-WARNING **: 22:32:29.071: invalid (NULL) pointer instance
+
+(wrapper-2.0:1399): GLib-GObject-CRITICAL **: 22:32:29.071: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1399): Gtk-WARNING **: 22:32:29.071: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1402): WARNING **: 22:32:29.549: No outputs have backlight property
+
+(nm-applet:1301): Gtk-WARNING **: 22:32:30.656: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1399): Gtk-WARNING **: 22:32:30.866: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1403): Gtk-WARNING **: 22:32:32.499: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1402): Gtk-WARNING **: 22:32:33.814: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1390): Gtk-WARNING **: 22:32:34.965: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)

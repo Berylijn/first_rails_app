@@ -1,0 +1,370 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/beryl/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=nl_NL.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting LC_NAME=nl_NL.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/beryl
+dbus-update-activation-environment: setting USER=beryl
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/beryl
+dbus-update-activation-environment: setting HOME=/home/beryl
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting LC_ADDRESS=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=nl_NL.UTF-8
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=nl_NL.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=beryl
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/beryl/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_IDENTIFICATION=nl_NL.UTF-8
+dbus-update-activation-environment: setting LC_TIME=nl_NL.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:901): xfce4-session-WARNING **: 14:29:47.105: xfsm_manager_load_session: Something wrong with /home/beryl/.cache/sessions/xfce4-session-beryl-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:957): GLib-CRITICAL **: 14:29:50.030: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:957): polkit-gnome-1-WARNING **: 14:29:50.032: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:924): xfsettingsd-WARNING **: 14:29:53.535: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(wrapper-2.0:1019): GLib-GIO-CRITICAL **: 14:30:00.196: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1019): GLib-GIO-CRITICAL **: 14:30:00.218: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1019): GLib-GObject-WARNING **: 14:30:00.218: invalid (NULL) pointer instance
+
+(wrapper-2.0:1019): GLib-GObject-CRITICAL **: 14:30:00.219: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1019): Gtk-WARNING **: 14:30:00.219: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:1024): WARNING **: 14:30:00.395: No outputs have backlight property
+
+(wrapper-2.0:1019): Gtk-WARNING **: 14:30:01.191: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1025): Gtk-WARNING **: 14:30:01.665: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1024): Gtk-WARNING **: 14:30:02.857: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:997): Gtk-WARNING **: 14:30:03.169: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:930): Gtk-WARNING **: 14:30:03.228: Can't set a parent on widget which has a parent
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+/var/lib/dpkg/lock: 
+
+(nm-applet:930): Gtk-CRITICAL **: 07:03:54.607: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-CRITICAL **: 07:03:55.019: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-WARNING **: 07:03:55.035: Can't set a parent on widget which has a parent
+
+(nm-applet:930): Gtk-CRITICAL **: 07:03:56.835: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-CRITICAL **: 07:03:56.875: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-WARNING **: 07:03:56.934: Can't set a parent on widget which has a parent
+
+(nm-applet:930): Gtk-CRITICAL **: 07:04:12.635: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-CRITICAL **: 07:04:12.637: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-WARNING **: 07:04:12.649: Can't set a parent on widget which has a parent
+
+(nm-applet:930): Gtk-CRITICAL **: 07:04:12.678: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-CRITICAL **: 07:04:12.689: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:930): Gtk-WARNING **: 07:04:12.708: Can't set a parent on widget which has a parent
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+thunar-volman: Device /dev/sr0 is already mounted at `/media/beryl/VBox_GAs_6.1.2'.
+.
+/var/lib/dpkg/lock: 
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+/var/lib/dpkg/lock: 
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+/var/lib/dpkg/lock: 
+/var/lib/dpkg/lock: 
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+PolicyKit daemon reconnected to bus.
+Attempting to re-register as an authentication agent.
+We are now a registered authentication agent.
+PolicyKit daemon disconnected from the bus.
+We are no longer a registered authentication agent.
+PolicyKit daemon reconnected to bus.
+Attempting to re-register as an authentication agent.
+We are now a registered authentication agent.
+/run/unattended-upgrades.lock:
+/var/lib/dpkg/lock: 
+/var/lib/dpkg/lock: 
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:06:58.688: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:06:58.887: g_strrstr: assertion 'haystack != NULL' failed
+
+(xfsettingsd:924): GLib-GObject-WARNING **: 14:06:59.361: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(xfsettingsd:924): GLib-GObject-WARNING **: 14:07:01.852: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:01.942: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:01.957: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.011: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.023: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.035: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.050: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.063: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.076: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.088: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.105: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.121: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.146: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.170: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.193: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.209: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.222: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.237: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.250: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.267: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.280: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.294: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.308: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.322: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.334: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.347: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.361: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.375: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.388: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:02.400: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.401: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.413: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.425: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.437: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.450: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.462: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.474: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.486: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.505: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.517: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.530: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.547: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.560: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.573: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.585: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.605: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.618: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.633: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.646: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.661: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.675: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.692: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.704: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.720: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.731: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.745: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.757: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.773: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.785: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:02.799: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.799: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.816: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.829: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.842: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.856: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.872: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.886: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.899: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.911: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.925: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.942: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.966: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:02.987: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.006: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.031: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.049: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.069: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.092: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.112: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.132: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.155: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.177: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.196: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.217: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.234: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.257: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.274: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.296: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-CRITICAL **: 14:07:03.314: g_strrstr: assertion 'haystack != NULL' failed
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:03.333: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:03.467: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:03.904: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:04.527: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+(wrapper-2.0:1024): GLib-GObject-WARNING **: 14:07:04.920: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+** (xfdesktop:920): WARNING **: 14:07:34.662: Attempt to remove icon 0x564bdd2737e0 from XfdesktopIconView 0x564bdd273200, but it's not in there.
+
+(xfce4-terminal:1442): Gdk-CRITICAL **: 14:19:53.780: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:3628): Gdk-CRITICAL **: 15:14:41.863: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfce4-terminal:19050): Gdk-CRITICAL **: 17:10:33.608: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(parole:19615): mpris2_plugin-WARNING **: 17:18:22.483: Lost DBus name org.mpris.MediaPlayer2.parole
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:00:08.068: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:01:35.729: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:02:34.433: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:03:59.031: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:05:02.848: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:06:13.253: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:07:24.908: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:09:15.154: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:11:42.671: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:15:12.082: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:1025): pulseaudio-plugin-CRITICAL **: 22:19:16.998: Could not get a list of names registered on the session bus, Timeout was reached
